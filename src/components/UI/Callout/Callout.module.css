@@ -1,0 +1,9 @@
+.callout {
+    background-color: gray;
+    width: 60%;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 70%;
+}

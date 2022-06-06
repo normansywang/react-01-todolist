@@ -1,0 +1,22 @@
+.main-header {
+    width: 100%;
+    padding: 1.5rem;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2em;
+    background-color: var(--primary-color);
+}
+
+.main-header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: baseline;
+}
+
+.main-header li {
+    margin-left: 3rem;
+}

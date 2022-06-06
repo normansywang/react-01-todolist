@@ -1,0 +1,34 @@
+.card {
+    width: 60%;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    opacity: 0.9;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card .checkbox {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 2px solid #fff;
+}
+
+.card .checkbox.checked {
+    background: var(--primary-color);
+}
+
+.card input {
+    margin-right: 20px;
+}
