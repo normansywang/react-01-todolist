@@ -17,15 +17,16 @@ npm install gh-pages --save-dev
 
 2. Modify `package.json`
     - Add `homepage` property
+    - Add deploy scripts in `scripts` property
 ```
 {
   ...
   "homepage": "https://{github_username}.github.io/{repository_name}/",
   ...
 }
-```
 
-    - Add deploy scripts in `scripts` property
+```
+   
 ```
 "scripts": {
     "predeploy": "npm run build",
