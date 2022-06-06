@@ -1,6 +1,6 @@
 # React App 01 - To do List
 
-View the application via: https://normansywang.github.io/react-todolist/
+View the application via: https://normansywang.github.io/react-01-todolist/
 
 ## Functions
 1. Input tasks to the to do list
