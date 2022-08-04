@@ -24,7 +24,7 @@ function App() {
     setTodoList(prevList => {
       const newList = [...prevList];
       const targetTask = newList.find(task => task.id === id);
-      targetTask.checked = true;
+      targetTask.checked = !targetTask.checked;
       return newList;
     });
   };
